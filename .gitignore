@@ -1,0 +1,55 @@
+# 数据文件
+data/
+*.json
+*.pkl
+
+# 环境配置
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# IDE配置
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# 日志文件
+*.log
+logs/
+
+# 模型文件（如果有的话）
+models/
+*.pt
+*.pth
+*.ckpt
+
+# 测试覆盖率报告
+.coverage
+htmlcov/ 
