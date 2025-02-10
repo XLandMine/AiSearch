@@ -19,21 +19,12 @@ AiSearch/
 ├── main.py # FastAPI服务器入口
 ├── medical_search.py # 搜索核心实现
 ├── database.py # 数据库访问层
-├── .gitignore # Git忽略配置
-├── data/ # 数据目录（不提交到Git）
+├── .gitignore 
+├── data/ # 数据目录
 │ └── mock_cases.json # 模拟病例数据
 └── tools/ # 工具脚本
 ├── generate_mock_data.py # 生成模拟数据
 └── process_cases.py # 处理病例数据
-
-## 数据目录说明
-
-项目的`data/`目录用于存储：
-- 模拟病例数据 (mock_cases.json)
-- 处理后的向量数据 (processed_cases.pkl)
-- 其他临时数据文件
-
-注意：这些数据文件不会提交到Git仓库，需要在首次运行时通过脚本生成。
 
 ## 使用说明
 
@@ -56,7 +47,6 @@ python main.py
 ```
 
 4. 访问API：
-- API文档：http://localhost:8000/docs
 - 搜索接口：POST http://localhost:8000/search
 
 ## API示例
